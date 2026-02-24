@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Tatiane Gomes | Saúde Estética Avançada</title>
+    <meta name="description"
+        content="Especialista em Saúde Estética Avançada. Resultados naturais e seguros para realçar sua beleza.">
+
+    <!-- Scripts & Styles CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            darkMode: ['selector', '.dark-mode'],
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            main: 'var(--brand-main)',
+                            hover: 'var(--brand-hover)',
+                            accent: 'var(--brand-accent)',
+                            dark: 'var(--brand-dark)',
+                            gray: 'var(--brand-gray)',
+                            light: 'var(--brand-light)',
+                        },
+                        whatsapp: '#25D366'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-brand-light text-brand-dark antialiased">
+    <div id="root">
+        <div class="min-h-screen max-w-lg mx-auto bg-brand-light shadow-2xl overflow-hidden font-sans relative">
+
+            <!-- Theme Toggle -->
+            <button id="theme-toggle" class="theme-toggle" aria-label="Alternar modo escuro">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <!-- Hero Section (Authority Based) -->
+            <section class="relative flex flex-col items-center text-center pt-16 pb-10 px-4 reveal">
+                <div
+                    class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-80 bg-gradient-to-b from-brand-main/10 via-brand-main/5 to-transparent -z-10 rounded-b-[4rem]">
+                </div>
+
+                <div class="relative mb-8">
+                    <div
+                        class="w-36 h-36 md:w-44 md:h-44 rounded-full p-1 bg-gradient-to-tr from-brand-main to-brand-accent shadow-2xl">
+                        <img alt="Dra. Tatiane Gomes"
+                            class="w-full h-full object-cover object-top rounded-full border-4 border-white"
+                            src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1e78f8fe34e293df4b.webp">
+                    </div>
+                    <div class="absolute bottom-2 right-2 bg-white rounded-full p-1.5 shadow-md">
+                        <i class="fa-solid fa-circle-check text-brand-main text-2xl"></i>
+                    </div>
+                </div>
+
+                <h1 class="text-3xl md:text-4xl font-serif font-bold text-brand-dark mb-3 tracking-tight">Dra. Tatiane
+                    Gomes</h1>
+                <p
+                    class="text-brand-main font-bold text-[10px] uppercase tracking-[0.3em] mb-6 bg-white/50 dark:bg-transparent backdrop-blur-sm px-8 py-2.5 rounded-full border border-brand-main/10 dark:border-brand-main/60 shadow-sm">
+                    Saúde Estética Avançada</p>
+                <p class="text-brand-gray max-w-[340px] text-center leading-relaxed text-sm font-medium opacity-80">
+                    Referência em estética avançada e mentoria de profissionais no Rio de Janeiro.</p>
+
+                <!-- Status Badge -->
+                <div
+                    class="inline-flex items-center glass rounded-full py-2.5 px-6 shadow-lg border border-white/20 mt-10">
+                    <div class="flex items-center gap-3">
+                        <span class="relative flex h-2 w-2">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 bg-green-500"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                        </span>
+                        <span class="micro-label !opacity-100 font-bold text-brand-dark">Agenda Disponível</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Main CTA & Links -->
+            <main class="px-5 pt-4 space-y-4">
+
+                <!-- WhatsApp Principal -->
+                <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações para agendar uma avaliação."
+                    target="_blank"
+                    class="relative inline-flex items-center justify-center gap-4 rounded-2xl transition-all duration-300 transform active:scale-95 cursor-pointer group overflow-hidden h-24 bg-gradient-to-r from-brand-main to-brand-hover text-white shadow-xl shadow-brand-main/30 border border-white/20 px-6 w-full pulse-custom-slow">
+                    <div
+                        class="absolute -right-4 -bottom-4 opacity-20 transform rotate-12 group-hover:scale-110 transition-transform duration-500">
+                        <i class="fa-brands fa-whatsapp text-8xl"></i>
+                    </div>
+                    <div class="shrink-0 z-10 transition-transform duration-300 group-hover:rotate-12">
+                        <i class="fa-brands fa-whatsapp text-3xl"></i>
+                    </div>
+                    <div class="flex flex-col items-start z-10 text-left flex-1">
+                        <span
+                            class="text-[10px] uppercase tracking-widest font-bold mb-1 opacity-90 text-white/90">Atendimento
+                            VIP</span>
+                        <span class="font-bold leading-tight text-xl">Agendar Avaliação</span>
+                    </div>
+                    <div
+                        class="ml-auto pl-2 opacity-60 z-10 group-hover:opacity-100 group-hover:translate-x-1 transition-all">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <!-- Website Link -->
+                <a href="https://www.tatianagomes.ag5agencia.site" target="_blank"
+                    class="relative inline-flex items-center justify-center gap-4 rounded-2xl transition-all duration-300 transform active:scale-95 cursor-pointer group overflow-hidden h-24 bg-zinc-900 hover:bg-zinc-800 text-white shadow-xl border border-white/10 px-6 w-full">
+                    <div
+                        class="absolute -right-4 -bottom-4 opacity-10 transform rotate-12 group-hover:scale-110 transition-transform duration-500">
+                        <i class="fa-solid fa-globe text-8xl"></i>
+                    </div>
+                    <div class="shrink-0 z-10 transition-transform duration-300 group-hover:rotate-12">
+                        <i class="fa-solid fa-globe text-3xl"></i>
+                    </div>
+                    <div class="flex flex-col items-start z-10 text-left flex-1">
+                        <span
+                            class="text-[10px] uppercase tracking-widest font-bold mb-1 opacity-70 text-white/70">Portal
+                            Oficial</span>
+                        <span class="font-bold leading-tight text-xl">Conheça nosso Site</span>
+                    </div>
+                    <div
+                        class="ml-auto pl-2 opacity-60 z-10 group-hover:opacity-100 group-hover:translate-x-1 transition-all">
+                        <i class="fa-solid fa-chevron-right text-brand-main"></i>
+                    </div>
+                </a>
+
+                <!-- Instagram Button -->
+                <a href="https://www.instagram.com/dratatianecgomes" target="_blank"
+                    class="relative inline-flex items-center justify-center gap-4 rounded-2xl transition-all duration-300 transform active:scale-95 cursor-pointer group overflow-hidden h-24 bg-zinc-900 hover:bg-zinc-800 text-white shadow-xl border border-white/10 px-6 w-full">
+                    <div
+                        class="absolute -right-4 -bottom-4 opacity-10 transform rotate-12 group-hover:scale-110 transition-transform duration-500">
+                        <i class="fa-brands fa-instagram text-8xl"></i>
+                    </div>
+                    <div class="shrink-0 z-10 transition-transform duration-300 group-hover:rotate-12">
+                        <i class="fa-brands fa-instagram text-3xl"></i>
+                    </div>
+                    <div class="flex flex-col items-start z-10 text-left flex-1">
+                        <span
+                            class="text-[10px] uppercase tracking-widest font-bold mb-1 opacity-70 text-white/70">Social
+                            Media</span>
+                        <span class="font-bold leading-tight text-xl">Instagram</span>
+                    </div>
+                    <div
+                        class="ml-auto pl-2 opacity-60 z-10 group-hover:opacity-100 group-hover:translate-x-1 transition-all">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <!-- Threads Button -->
+                <a href="https://www.threads.net/@dratatianecgomes" target="_blank"
+                    class="relative inline-flex items-center justify-center gap-4 rounded-2xl transition-all duration-300 transform active:scale-95 cursor-pointer group overflow-hidden h-24 bg-black hover:bg-zinc-900 text-white shadow-xl border border-white/10 px-6 w-full">
+                    <div
+                        class="absolute -right-4 -bottom-4 opacity-10 transform rotate-12 group-hover:scale-110 transition-transform duration-500">
+                        <i class="fa-brands fa-threads text-8xl"></i>
+                    </div>
+                    <div class="shrink-0 z-10 transition-transform duration-300 group-hover:rotate-12">
+                        <i class="fa-brands fa-threads text-3xl"></i>
+                    </div>
+                    <div class="flex flex-col items-start z-10 text-left flex-1">
+                        <span
+                            class="text-[10px] uppercase tracking-widest font-bold mb-1 opacity-70 text-white/70">Compartilhamentos</span>
+                        <span class="font-bold leading-tight text-xl">Threads</span>
+                    </div>
+                    <div
+                        class="ml-auto pl-2 opacity-60 z-10 group-hover:opacity-100 group-hover:translate-x-1 transition-all">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <!-- TikTok Button -->
+                <a href="https://www.tiktok.com/@dratatianegomes?_t=ZM-8tQkgLCbX4H&_r=1" target="_blank"
+                    class="relative inline-flex items-center justify-center gap-4 rounded-2xl transition-all duration-300 transform active:scale-95 cursor-pointer group overflow-hidden h-24 bg-zinc-950 hover:bg-black text-white shadow-xl border border-white/10 px-6 w-full">
+                    <div
+                        class="absolute -right-4 -bottom-4 opacity-10 transform rotate-12 group-hover:scale-110 transition-transform duration-500">
+                        <i class="fa-brands fa-tiktok text-8xl"></i>
+                    </div>
+                    <div class="shrink-0 z-10 transition-transform duration-300 group-hover:rotate-12">
+                        <i class="fa-brands fa-tiktok text-3xl"></i>
+                    </div>
+                    <div class="flex flex-col items-start z-10 text-left flex-1">
+                        <span
+                            class="text-[10px] uppercase tracking-widest font-bold mb-1 opacity-70 text-white/70">Conteúdo
+                            Viral</span>
+                        <span class="font-bold leading-tight text-xl">TikTok</span>
+                    </div>
+                    <div
+                        class="ml-auto pl-2 opacity-60 z-10 group-hover:opacity-100 group-hover:translate-x-1 transition-all">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <!-- Diferenciais Section -->
+                <section class="py-12 reveal">
+                    <div class="flex flex-col items-center mb-10">
+                        <h2 class="text-[10px] font-bold text-brand-gray uppercase tracking-[0.3em] text-center">Nossos
+                            Diferenciais</h2>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div
+                            class="flex flex-col items-center p-6 bg-white rounded-[2rem] border border-brand-accent shadow-sm text-center gap-4 hover-lift group">
+                            <div
+                                class="text-brand-main bg-brand-light p-4 rounded-full group-hover:bg-brand-main group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-crown text-xl"></i>
+                            </div>
+                            <span class="text-[11px] font-bold text-zinc-600 leading-tight tracking-wide">Resultados
+                                Naturais</span>
+                        </div>
+                        <div
+                            class="flex flex-col items-center p-6 bg-white rounded-[2rem] border border-brand-accent shadow-sm text-center gap-4 hover-lift group">
+                            <div
+                                class="text-brand-main bg-brand-light p-4 rounded-full group-hover:bg-brand-main group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-flask-vial text-xl"></i>
+                            </div>
+                            <span class="text-[11px] font-bold text-zinc-600 leading-tight tracking-wide">Protocolos
+                                Exclusivos</span>
+                        </div>
+                        <div
+                            class="flex flex-col items-center p-6 bg-white rounded-[2rem] border border-brand-accent shadow-sm text-center gap-4 hover-lift group">
+                            <div
+                                class="text-brand-main bg-brand-light p-4 rounded-full group-hover:bg-brand-main group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-user-doctor text-xl"></i>
+                            </div>
+                            <span class="text-[11px] font-bold text-zinc-600 leading-tight tracking-wide">Mentor e
+                                Especialista</span>
+                        </div>
+                        <div
+                            class="flex flex-col items-center p-6 bg-white rounded-[2rem] border border-brand-accent shadow-sm text-center gap-4 hover-lift group">
+                            <div
+                                class="text-brand-main bg-brand-light p-4 rounded-full group-hover:bg-brand-main group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-shield-heart text-xl"></i>
+                            </div>
+                            <span class="text-[11px] font-bold text-zinc-600 leading-tight tracking-wide">Segurança
+                                Total</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Avaliações Section (Automatic Scroll) -->
+                <section class="py-8 overflow-hidden reveal">
+                    <div class="flex flex-col items-center justify-center mb-8 px-1">
+                        <h2
+                            class="text-[10px] font-bold text-brand-gray uppercase tracking-[0.3em] flex items-center gap-3">
+                            <i class="fa-solid fa-star text-brand-main text-[8px]"></i> Depoimentos
+                        </h2>
+                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+                            class="h-3.5 opacity-30 mt-2.5 saturate-50 brightness-110" alt="Google Reviews">
+                    </div>
+                    <div class="flex hide-scrollbar overflow-x-hidden">
+                        <div class="animate-scroll flex gap-6 py-2 pb-8 px-1">
+
+                            <!-- Avaliação 1 -->
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">
+                                        "Super indico, muito atenciosa e ótima profissional!!!"
+                                    </p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        LN</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Lorena Neves</h4>
+                                        <p class="text-[10px] text-zinc-400">5 avaliações · 2 meses atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Avaliação 2 -->
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">
+                                        "Dra Tatiane é maravilhosa, super atenciosa, que profissional excelente!
+                                        Atendimento nota 1000."
+                                    </p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        CG</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Camila Gomes</h4>
+                                        <p class="text-[10px] text-zinc-400">1 avaliação · 2 meses atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Avaliação 3 -->
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">
+                                        "Dr.Tatiane Gomes é uma excelente profissional, super atenciosa e simpática.
+                                        Super recomendo"
+                                    </p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        RC</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Roberta Campos</h4>
+                                        <p class="text-[10px] text-zinc-400">1 avaliação · 2 meses atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Avaliação 4 -->
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">
+                                        "Recomendo muito, super atenciosa e competente!"
+                                    </p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        KA</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Katia Ascendino</h4>
+                                        <p class="text-[10px] text-zinc-400">5 avaliações · 2 meses atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Avaliação 5 -->
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">
+                                        "Excelente atendimento, trabalho perfeito e de muita qualidade."
+                                    </p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        FL</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Fabio Lacerda</h4>
+                                        <p class="text-[10px] text-zinc-400">18 avaliações · 2 meses atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Avaliação 6 -->
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">
+                                        "Excelente profissional, ótimo trabalho."
+                                    </p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        RS</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Robson Ferraz</h4>
+                                        <p class="text-[10px] text-zinc-400">29 avaliações · 2 meses atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Avaliação 7 -->
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">
+                                        "Experiência renovadora, aumento de auto estima e me fez enxergar a mulher que
+                                        sou!!"
+                                    </p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        LA</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Lugares que Amamos</h4>
+                                        <p class="text-[10px] text-zinc-400">1 avaliação · 4 dias atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Avaliação 8 -->
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">
+                                        "Atendimento excelente. Endolaser em Santa Cruz rj. Preenchimento labial em
+                                        Santa Cruz rj."
+                                    </p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        FG</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Fagner Barbosa</h4>
+                                        <p class="text-[10px] text-zinc-400">22 avaliações · 1 semana atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- DUPLICAÇÃO PARA EFEITO INFINITO -->
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">"Super indico,
+                                        muito atenciosa e ótima profissional!!!"</p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        LN</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Lorena Neves</h4>
+                                        <p class="text-[10px] text-zinc-400">5 avaliações · 2 meses atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="min-w-[300px] bg-white p-6 rounded-[2rem] border border-zinc-100 shadow-sm flex flex-col justify-between relative">
+                                <div>
+                                    <div class="flex items-center gap-1 mb-3 text-yellow-500 text-[10px]">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="text-brand-dark text-[13px] leading-relaxed mb-4 italic">"Dra Tatiane é
+                                        maravilhosa, super atenciosa, que profissional excelente! Atendimento nota
+                                        1000."</p>
+                                </div>
+                                <div class="flex items-center gap-3 border-t border-zinc-50 pt-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-brand-accent flex items-center justify-center font-bold text-brand-main">
+                                        CG</div>
+                                    <div>
+                                        <h4 class="font-bold text-sm text-brand-dark">Camila Gomes</h4>
+                                        <p class="text-[10px] text-zinc-400">1 avaliação · 2 meses atrás</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Resultados Reais Section -->
+                <section
+                    class="py-20 reveal bg-brand-light -mx-5 px-5 border-y border-brand-accent/30 dark:border-white/10 overflow-hidden">
+                    <div class="flex flex-col items-center mb-16">
+                        <span class="text-brand-main text-[10px] font-bold tracking-[0.5em] uppercase mb-4">Galeria
+                            Exclusive</span>
+                        <h3 class="text-4xl font-serif font-bold text-brand-dark tracking-tighter text-center">
+                            Resultados Impecáveis</h3>
+                        <div class="w-16 h-px bg-brand-main mt-6 opacity-40"></div>
+                    </div>
+
+                    <div class="flex flex-col gap-10">
+                        <!-- Destaque Central -->
+                        <div class="relative group">
+                            <div
+                                class="absolute -inset-4 bg-brand-main/5 rounded-[3rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+                            </div>
+                            <div class="relative overflow-hidden rounded-[3rem] shadow-2xl border border-white dark:border-zinc-800 cursor-zoom-in"
+                                onclick="openImageModal('Resultados Reais/harmonizacao-facial-santa-cruz-rio-de-janeiro-dra-tatiane-gomes%20(4).webp')">
+                                <img src="Resultados%20Reais/harmonizacao-facial-santa-cruz-rio-de-janeiro-dra-tatiane-gomes%20(4).webp"
+                                    class="w-full h-[450px] object-cover transition-transform duration-1000 group-hover:scale-110"
+                                    alt="Destaque">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent">
+                                </div>
+                                <div class="absolute bottom-10 left-10 right-10">
+                                    <div class="flex items-center gap-3 mb-4">
+                                        <div class="h-px w-8 bg-brand-main"></div>
+                                        <span
+                                            class="text-white/80 text-[10px] font-bold uppercase tracking-widest text-[#d4af37]">Protocolo
+                                            Full Face</span>
+                                    </div>
+                                    <h4 class="text-white text-2xl font-serif font-bold italic leading-tight">Harmonia e
+                                        Elegância em cada detalhe.</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Grid de Suporte -->
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="space-y-6">
+                                <div class="relative group overflow-hidden rounded-[2.5rem] shadow-lg aspect-[4/5] border border-white dark:border-zinc-800 cursor-zoom-in"
+                                    onclick="openImageModal('Resultados Reais/preenchimento-labial-santa-cruz-rio-de-janeiro-clinica-estetica.webp')">
+                                    <img src="Resultados%20Reais/preenchimento-labial-santa-cruz-rio-de-janeiro-clinica-estetica.webp"
+                                        class="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+                                        alt="Resultado 1">
+                                    <div
+                                        class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-black/60 to-transparent">
+                                        <p class="text-white text-[10px] font-bold uppercase tracking-wider">Lábios</p>
+                                    </div>
+                                </div>
+                                <div class="relative group overflow-hidden rounded-[2.5rem] shadow-lg aspect-square border border-white dark:border-zinc-800 cursor-zoom-in"
+                                    onclick="openImageModal('Resultados Reais/tratamento-corporal-santa-cruz-rj-harmonizacao-corporal%20(3).webp')">
+                                    <img src="Resultados%20Reais/tratamento-corporal-santa-cruz-rj-harmonizacao-corporal%20(3).webp"
+                                        class="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+                                        alt="Resultado 2">
+                                    <div
+                                        class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-black/60 to-transparent">
+                                        <p class="text-white text-[10px] font-bold uppercase tracking-wider">Corpo</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="space-y-6 pt-12">
+                                <div class="relative group overflow-hidden rounded-[2.5rem] shadow-lg aspect-square border border-white dark:border-zinc-800 cursor-zoom-in"
+                                    onclick="openImageModal('Resultados Reais/tratamento-corporal-santa-cruz-rj-harmonizacao-corporal%20(1).webp')">
+                                    <img src="Resultados%20Reais/tratamento-corporal-santa-cruz-rj-harmonizacao-corporal%20(1).webp"
+                                        class="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+                                        alt="Resultado 3">
+                                    <div
+                                        class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-black/60 to-transparent">
+                                        <p class="text-white text-[10px] font-bold uppercase tracking-wider">Silhueta
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="relative group overflow-hidden rounded-[2.5rem] shadow-lg aspect-[4/5] border border-white dark:border-zinc-800 cursor-zoom-in"
+                                    onclick="openImageModal('Resultados Reais/harmonizacao-facial-santa-cruz-rio-de-janeiro-dra-tatiane-gomes%20(5).webp')">
+                                    <img src="Resultados%20Reais/harmonizacao-facial-santa-cruz-rio-de-janeiro-dra-tatiane-gomes%20(5).webp"
+                                        class="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+                                        alt="Resultado 4">
+                                    <div
+                                        class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-black/60 to-transparent">
+                                        <p class="text-white text-[10px] font-bold uppercase tracking-wider">Sublime</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CTA Callout -->
+                        <div class="mt-8 flex flex-col items-center">
+                            <p class="text-brand-gray text-[11px] uppercase tracking-widest font-bold mb-6 opacity-60">
+                                Resultados Individuais podem variar</p>
+                            <a href="https://www.instagram.com/dratatianecgomes" target="_blank"
+                                class="inline-flex items-center gap-3 text-brand-main font-bold text-xs border-b border-brand-main/30 pb-2 hover:border-brand-main transition-all">
+                                VER PORTFÓLIO COMPLETO No INSTAGRAM <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sobre Section -->
+                <section
+                    class="bg-white p-10 rounded-[2.5rem] shadow-sm border border-brand-accent relative overflow-hidden reveal">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-brand-main/5 rounded-bl-full -mr-12 -mt-12"></div>
+                    <h2 class="text-2xl font-serif font-bold text-brand-dark mb-6 tracking-tight text-center">Sobre a
+                        Dra. Tatiane</h2>
+                    <p
+                        class="text-brand-gray text-[13px] leading-[1.8] text-center font-medium opacity-90 max-w-[340px] mx-auto">
+                        A história da Dra. Tatiane Gomes Saúde Estética nasce da paixão pela estética e pelo cuidado
+                        genuíno com as pessoas. Desde o início, o propósito sempre foi ir além da estética convencional,
+                        oferecendo tratamentos que respeitam a individualidade, a segurança e a beleza natural de cada
+                        paciente.
+                    </p>
+                </section>
+
+                <!-- Serviços Section -->
+                <section class="py-12 reveal">
+                    <div class="flex flex-col items-center mb-8 px-1">
+                        <h2 class="text-xl font-serif font-bold text-brand-dark">Tratamentos</h2>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <!-- Card 1: Drenagem -->
+                        <div
+                            class="group relative flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-sm border border-brand-accent transition-all duration-300">
+                            <div class="relative w-full h-32 overflow-hidden">
+                                <img src="drenagem.png" alt="Drenagem"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <h3 class="absolute bottom-3 left-3 text-white font-bold text-sm">Drenagem</h3>
+                            </div>
+                            <div class="p-4 flex flex-col flex-1">
+                                <button onclick="openModal('modal-drenagem')"
+                                    class="mt-auto flex items-center text-brand-main text-[11px] font-bold gap-2 group-hover:translate-x-1 transition-transform">
+                                    SAIBA MAIS <i class="fa-solid fa-plus text-[9px]"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Fios de PDO -->
+                        <div
+                            class="group relative flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-sm border border-brand-accent transition-all duration-300">
+                            <div class="relative w-full h-32 overflow-hidden">
+                                <img src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1ef5bf66197da9501c.webp"
+                                    alt="Fios de PDO"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <h3 class="absolute bottom-3 left-3 text-white font-bold text-sm">Fios de PDO</h3>
+                            </div>
+                            <div class="p-4 flex flex-col flex-1">
+                                <button onclick="openModal('modal-fios-pdo')"
+                                    class="mt-auto flex items-center text-brand-main text-[11px] font-bold gap-2 group-hover:translate-x-1 transition-transform">
+                                    SAIBA MAIS <i class="fa-solid fa-plus text-[9px]"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Tratamento para cicatrizes -->
+                        <div
+                            class="group relative flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-sm border border-brand-accent transition-all duration-300">
+                            <div class="relative w-full h-32 overflow-hidden">
+                                <img src="cicatrizes.png" alt="Tratamento para cicatrizes"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <h3 class="absolute bottom-3 left-3 text-white font-bold text-sm">Cicatrizes</h3>
+                            </div>
+                            <div class="p-4 flex flex-col flex-1">
+                                <button onclick="openModal('modal-cicatrizes')"
+                                    class="mt-auto flex items-center text-brand-main text-[11px] font-bold gap-2 group-hover:translate-x-1 transition-transform">
+                                    SAIBA MAIS <i class="fa-solid fa-plus text-[9px]"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Limpeza de Pele -->
+                        <div
+                            class="group relative flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-sm border border-brand-accent transition-all duration-300">
+                            <div class="relative w-full h-32 overflow-hidden">
+                                <img src="limpeza.png" alt="Limpeza de Pele"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <h3 class="absolute bottom-3 left-3 text-white font-bold text-sm">Limpeza de Pele</h3>
+                            </div>
+                            <div class="p-4 flex flex-col flex-1">
+                                <button onclick="openModal('modal-limpeza')"
+                                    class="mt-auto flex items-center text-brand-main text-[11px] font-bold gap-2 group-hover:translate-x-1 transition-transform">
+                                    SAIBA MAIS <i class="fa-solid fa-plus text-[9px]"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 5: Microagulhamento -->
+                        <div
+                            class="group relative flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-sm border border-brand-accent transition-all duration-300">
+                            <div class="relative w-full h-32 overflow-hidden">
+                                <img src="microagulhamento.png" alt="Microagulhamento"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <h3 class="absolute bottom-3 left-3 text-white font-bold text-sm">Microagulhamento</h3>
+                            </div>
+                            <div class="p-4 flex flex-col flex-1">
+                                <button onclick="openModal('modal-microagulhamento')"
+                                    class="mt-auto flex items-center text-brand-main text-[11px] font-bold gap-2 group-hover:translate-x-1 transition-transform">
+                                    SAIBA MAIS <i class="fa-solid fa-plus text-[9px]"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 6: Botox -->
+                        <div
+                            class="group relative flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-sm border border-brand-accent transition-all duration-300">
+                            <div class="relative w-full h-32 overflow-hidden">
+                                <img src="botox.png" alt="Botox"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <h3 class="absolute bottom-3 left-3 text-white font-bold text-sm">Botox</h3>
+                            </div>
+                            <div class="p-4 flex flex-col flex-1">
+                                <button onclick="openModal('modal-botox')"
+                                    class="mt-auto flex items-center text-brand-main text-[11px] font-bold gap-2 group-hover:translate-x-1 transition-transform">
+                                    SAIBA MAIS <i class="fa-solid fa-plus text-[9px]"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 7: Preenchimento Labial -->
+                        <div
+                            class="group relative flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-sm border border-brand-accent transition-all duration-300">
+                            <div class="relative w-full h-32 overflow-hidden">
+                                <img src="preenchimento.png" alt="Preenchimento Labial"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <h3 class="absolute bottom-3 left-3 text-white font-bold text-sm">Preenchimento Labial
+                                </h3>
+                            </div>
+                            <div class="p-4 flex flex-col flex-1">
+                                <button onclick="openModal('modal-preenchimento')"
+                                    class="mt-auto flex items-center text-brand-main text-[11px] font-bold gap-2 group-hover:translate-x-1 transition-transform">
+                                    SAIBA MAIS <i class="fa-solid fa-plus text-[9px]"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 8: Logo -->
+                        <div
+                            class="group relative flex flex-col bg-white rounded-[2rem] overflow-hidden shadow-sm border border-brand-accent transition-all duration-300 items-center justify-center p-4 min-h-[128px]">
+                            <img src="Design sem nome (2).png" alt="Logo" class="w-16 transition-all">
+                        </div>
+                    </div>
+
+                    <!-- Link Extra Serviços -->
+                    <div class="mt-10 flex flex-col items-center">
+                        <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações sobre outros serviços disponíveis."
+                            target="_blank"
+                            class="group inline-flex items-center gap-3 py-4 px-8 rounded-full bg-white border border-brand-accent shadow-sm hover:bg-brand-light transition-all duration-300">
+                            <span
+                                class="text-[10px] sm:text-xs font-bold text-brand-dark uppercase tracking-[0.2em]">Conheça
+                                outros serviços disponíveis</span>
+                            <div
+                                class="w-8 h-8 rounded-full bg-brand-main text-white flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </div>
+                        </a>
+                        <p class="mt-4 text-[10px] text-brand-gray font-bold uppercase tracking-widest opacity-60">Falar
+                            com especialista</p>
+                    </div>
+                </section>
+
+                <!-- Google Interaction Buttons -->
+                <section class="space-y-4 py-6 px-1 reveal">
+                    <!-- Tour Virtual 360 / Site -->
+                    <button onclick="openModal('modal-360')"
+                        class="relative inline-flex items-center justify-center gap-4 rounded-[2rem] transition-all duration-300 transform active:scale-95 cursor-pointer group overflow-hidden h-24 text-white shadow-xl border border-white/20 w-full mb-2">
+                        <div class="absolute inset-0 bg-cover bg-center z-0 transition-transform duration-700 group-hover:scale-110"
+                            style="background-image: url('https://lh3.googleusercontent.com/p/AF1QipP8I_uYmRQ72RwfaBjrcQTJXe0FMm1Owm_tik9P=w4096-h2048-k-no');">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-zinc-900/90 to-zinc-900/40 z-0"></div>
+                        <div class="shrink-0 z-10 transition-transform duration-300 group-hover:-translate-y-1">
+                            <i class="fa-solid fa-street-view text-3xl"></i>
+                        </div>
+                        <div class="flex flex-col items-start z-10 text-left flex-1">
+                            <span
+                                class="text-[10px] uppercase tracking-widest font-bold mb-1 opacity-90 text-white/90">Tecnologia
+                                Premium</span>
+                            <span class="font-bold leading-tight text-xl">Tour Virtual 360° / Site</span>
+                        </div>
+                        <div
+                            class="ml-auto pl-2 opacity-60 z-10 group-hover:opacity-100 group-hover:translate-x-1 transition-all">
+                            <i class="fa-solid fa-chevron-right text-brand-main"></i>
+                        </div>
+                    </button>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <!-- Google Meu Negócio -->
+                        <a href="https://share.google/3brGUkMmubL1FU9fF" target="_blank"
+                            class="flex flex-col items-center justify-center gap-3 rounded-[2rem] p-6 bg-white border border-brand-accent transition-all hover:bg-brand-light shadow-sm group text-center">
+                            <i
+                                class="fa-brands fa-google text-2xl text-brand-main opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all"></i>
+                            <span class="text-[10px] font-bold tracking-[0.1em] uppercase text-brand-dark">Clínica no
+                                Google</span>
+                        </a>
+
+                        <!-- Avaliação -->
+                        <a href="https://search.google.com/local/writereview?placeid=ChIJl-8GTK_lmwARcK9_9ugHAlo"
+                            target="_blank"
+                            class="flex flex-col items-center justify-center gap-3 rounded-[2rem] p-6 bg-white border border-brand-accent transition-all hover:bg-brand-light shadow-sm group text-center">
+                            <i
+                                class="fa-regular fa-star text-2xl text-brand-main opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all"></i>
+                            <span class="text-[10px] font-bold tracking-[0.1em] uppercase text-brand-dark">Avaliar
+                                Clínica</span>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Localização & CTA Section -->
+                <section class="space-y-4 py-10 reveal">
+                    <!-- Location Card -->
+                    <div
+                        class="bg-brand-light dark:bg-brand-light rounded-[2.5rem] overflow-hidden shadow-2xl mt-4 border border-brand-accent relative">
+                        <div class="p-10">
+                            <h2
+                                class="text-2xl font-serif font-bold mb-8 flex flex-col items-center gap-4 text-center text-brand-dark">
+                                <i class="fa-solid fa-location-dot text-brand-main text-xl"></i> Localização
+                            </h2>
+                            <address class="not-italic text-brand-gray text-sm mb-10 space-y-3 text-center">
+                                <p class="font-bold text-brand-dark text-xl tracking-tight">Santa Cruz e Barra da Tijuca
+                                </p>
+                                <p class="opacity-80">Rio de Janeiro - RJ | Brasil</p>
+                                <div class="pt-6 border-t border-brand-accent">
+                                    <span
+                                        class="text-[10px] font-bold text-brand-main uppercase tracking-[0.2em]">Atendimento
+                                        Premium e Personalizado</span>
+                                </div>
+                            </address>
+
+                            <div
+                                class="space-y-5 bg-white/50 dark:bg-white/5 p-8 rounded-[2rem] border border-brand-accent backdrop-blur-sm">
+                                <h3
+                                    class="text-[10px] font-bold text-brand-main uppercase tracking-[0.2em] flex flex-col items-center gap-3">
+                                    <i class="fa-regular fa-clock text-xs"></i> Cronograma de Atendimento
+                                </h3>
+                                <ul class="text-sm text-brand-gray space-y-4">
+                                    <li class="flex justify-between items-center pb-2 border-b border-brand-accent">
+                                        <span class="opacity-70">Terça a Sexta</span>
+                                        <span class="font-bold text-brand-dark text-right font-mono text-[13px]">09:00 -
+                                            20:00</span>
+                                    </li>
+                                    <li class="flex justify-between items-center">
+                                        <span class="opacity-70">Sábado</span>
+                                        <span class="font-bold text-brand-dark text-right font-mono text-[13px]">09:00 -
+                                            14:00</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="p-8 bg-brand-accent/30 border-t border-brand-accent">
+                            <a href="https://www.google.com/maps/dir//Dra.+Tatiane+Gomes+Sa%C3%BAde+Est%C3%A9tica+-+Av.+Eng.+Gast%C3%A3o+Rangel,+277+-+loja+2A+-+Santa+Cruz,+Rio+de+Janeiro+-+RJ,+23550-393/@-22.9294137,-43.6819447,17z/data=!4m16!1m7!3m6!1s0x9be5af4c06ef97:0x5a0207e8f67faf70!2sDra.+Tatiane+Gomes+Sa%C3%BAde+Est%C3%A9tica!8m2!3d-22.9294137!4d-43.6793698!16s%2Fg%2F11h6cs8ksn!4m7!1m0!1m5!1m1!1s0x9be5af4c06ef97:0x5a0207e8f67faf70!2m2!1d-43.6793698!2d-22.9294137?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
+                                target="_blank"
+                                class="w-full py-5 rounded-2xl bg-brand-main text-white text-[10px] font-bold tracking-[0.3em] flex items-center justify-center gap-4 transition-all transform active:scale-95 uppercase shadow-lg shadow-brand-main/20">
+                                <i class="fa-solid fa-location-arrow text-lg"></i> COMO CHEGAR (GPS)
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+            <footer class="mt-8 py-10 px-6 bg-zinc-900 text-zinc-400 text-center rounded-t-[3rem] reveal">
+                <img src="Design%20sem%20nome%20(2).png" alt="Dra. Tatiane Gomes" class="w-12 mx-auto mb-6">
+
+                <div class="flex justify-center gap-5 mb-6">
+                    <a href="https://www.instagram.com/dratatianecgomes" target="_blank"
+                        class="text-zinc-500 hover:text-brand-main transition-colors transform hover:scale-110">
+                        <i class="fa-brands fa-instagram text-lg"></i>
+                    </a>
+                    <a href="https://www.threads.net/@dratatianecgomes" target="_blank"
+                        class="text-zinc-500 hover:text-brand-main transition-colors transform hover:scale-110">
+                        <i class="fa-brands fa-threads text-lg"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@dratatianegomes?_t=ZM-8tQkgLCbX4H&_r=1" target="_blank"
+                        class="text-zinc-500 hover:text-brand-main transition-colors transform hover:scale-110">
+                        <i class="fa-brands fa-tiktok text-lg"></i>
+                    </a>
+                    <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações."
+                        target="_blank"
+                        class="text-zinc-500 hover:text-brand-main transition-colors transform hover:scale-110">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+
+                <p class="text-[9px] opacity-40 leading-relaxed max-w-[320px] mx-auto mb-4 uppercase tracking-widest">
+                    © 2026 Dra. Tatiane Gomes — Saúde Estética
+                </p>
+
+                <a href="https://www.ag5agencia.com.br" target="_blank"
+                    class="inline-block text-[8px] opacity-30 hover:opacity-100 hover:text-brand-main transition-opacity duration-500 uppercase tracking-[0.2em]">
+                    Desenvolvido por AG5 Agência
+                </a>
+            </footer>
+
+            <div class="fixed bottom-6 right-6 z-40">
+                <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações."
+                    target="_blank"
+                    class="relative group flex items-center justify-center w-16 h-16 bg-whatsapp rounded-full shadow-2xl shadow-green-500/40 text-white transition-transform hover:scale-110 active:scale-95">
+                    <i class="fa-brands fa-whatsapp text-3xl"></i>
+                    <div class="whatsapp-notify">1</div>
+                </a>
+            </div>
+
+            <!-- Modals -->
+
+            <!-- Modais de Tratamentos -->
+
+            <!-- Modal Drenagem -->
+            <div id="modal-drenagem" class="modal-backdrop">
+                <div class="modal-content">
+                    <span class="close-modal" onclick="closeModal('modal-drenagem')"><i
+                            class="fa-solid fa-xmark text-xl"></i></span>
+                    <img src="drenagem.png" class="w-full h-40 object-cover rounded-2xl mb-6 shadow-md">
+                    <h2 class="text-2xl font-serif font-bold text-brand-dark mb-4">Drenagem</h2>
+                    <p class="text-brand-gray text-sm mb-6 leading-relaxed">Estimula o sistema linfático para eliminar
+                        toxinas, reduzir o inchaço e melhorar a circulação sanguínea.</p>
+                    <div class="space-y-3 mb-8">
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Reduz retenção de líquidos</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Desintoxica o organismo</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Melhora a aparência da
+                                celulite</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações sobre Drenagem."
+                        class="w-full py-4 rounded-xl bg-brand-main text-white font-bold flex items-center justify-center gap-2 shadow-lg shadow-brand-main/20 uppercase tracking-wide text-xs">
+                        AGENDAR AGORA <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Modal Fios de PDO -->
+            <div id="modal-fios-pdo" class="modal-backdrop">
+                <div class="modal-content">
+                    <span class="close-modal" onclick="closeModal('modal-fios-pdo')"><i
+                            class="fa-solid fa-xmark text-xl"></i></span>
+                    <img src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1ef5bf66197da9501c.webp"
+                        class="w-full h-40 object-cover rounded-2xl mb-6 shadow-md">
+                    <h2 class="text-2xl font-serif font-bold text-brand-dark mb-4">Fios de PDO</h2>
+                    <p class="text-brand-gray text-sm mb-6 leading-relaxed">Procedimento de sustentação facial que
+                        utiliza fios absorvíveis para tracionar a pele e estimular o colágeno.</p>
+                    <div class="space-y-3 mb-8">
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Efeito Lifting imediato</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Estimula produção de colágeno</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Suaviza rugas e linhas</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações sobre Fios de PDO."
+                        class="w-full py-4 rounded-xl bg-brand-main text-white font-bold flex items-center justify-center gap-2 shadow-lg shadow-brand-main/20 uppercase tracking-wide text-xs">
+                        QUERO SABER MAIS <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Modal Cicatrizes -->
+            <div id="modal-cicatrizes" class="modal-backdrop">
+                <div class="modal-content">
+                    <span class="close-modal" onclick="closeModal('modal-cicatrizes')"><i
+                            class="fa-solid fa-xmark text-xl"></i></span>
+                    <img src="cicatrizes.png" class="w-full h-40 object-cover rounded-2xl mb-6 shadow-md">
+                    <h2 class="text-2xl font-serif font-bold text-brand-dark mb-4">Tratamento de Cicatrizes</h2>
+                    <p class="text-brand-gray text-sm mb-6 leading-relaxed">Associação de tecnologias para suavizar a
+                        textura e a coloração de cicatrizes de acne ou pós-operatórias.</p>
+                    <div class="space-y-3 mb-8">
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Uniformiza a textura da pele</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Reduz o relevo das marcas</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Renova as camadas da derme</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações sobre Cicatrizes."
+                        class="w-full py-4 rounded-xl bg-brand-main text-white font-bold flex items-center justify-center gap-2 shadow-lg shadow-brand-main/20 uppercase tracking-wide text-xs">
+                        AGENDAR AVALIAÇÃO <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Modal Limpeza -->
+            <div id="modal-limpeza" class="modal-backdrop">
+                <div class="modal-content">
+                    <span class="close-modal" onclick="closeModal('modal-limpeza')"><i
+                            class="fa-solid fa-xmark text-xl"></i></span>
+                    <img src="limpeza.png" class="w-full h-40 object-cover rounded-2xl mb-6 shadow-md">
+                    <h2 class="text-2xl font-serif font-bold text-brand-dark mb-4">Limpeza de Pele</h2>
+                    <p class="text-brand-gray text-sm mb-6 leading-relaxed">Remoção profunda de impurezas, cravos e
+                        células mortas para uma pele saudável e renovada.</p>
+                    <div class="space-y-3 mb-8">
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Desobstrução dos poros</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Previne o surgimento de acne</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Pele mais radiante e macia</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações sobre Limpeza de Pele."
+                        class="w-full py-4 rounded-xl bg-brand-main text-white font-bold flex items-center justify-center gap-2 shadow-lg shadow-brand-main/20 uppercase tracking-wide text-xs">
+                        MARCAR AGORA <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Modal Microagulhamento -->
+            <div id="modal-microagulhamento" class="modal-backdrop">
+                <div class="modal-content">
+                    <span class="close-modal" onclick="closeModal('modal-microagulhamento')"><i
+                            class="fa-solid fa-xmark text-xl"></i></span>
+                    <img src="microagulhamento.png" class="w-full h-40 object-cover rounded-2xl mb-6 shadow-md">
+                    <h2 class="text-2xl font-serif font-bold text-brand-dark mb-4">Microagulhamento</h2>
+                    <p class="text-brand-gray text-sm mb-6 leading-relaxed">Utiliza microagulhas para criar microlesões
+                        na pele, estimulando naturalmente a renovação e o colágeno.</p>
+                    <div class="space-y-3 mb-8">
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Suaviza linhas de expressão</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Melhora o aspecto de poros</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Clareamento de manchas leves</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações sobre Microagulhamento."
+                        class="w-full py-4 rounded-xl bg-brand-main text-white font-bold flex items-center justify-center gap-2 shadow-lg shadow-brand-main/20 uppercase tracking-wide text-xs">
+                        QUERO SABER MAIS <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Modal Botox -->
+            <div id="modal-botox" class="modal-backdrop">
+                <div class="modal-content">
+                    <span class="close-modal" onclick="closeModal('modal-botox')"><i
+                            class="fa-solid fa-xmark text-xl"></i></span>
+                    <img src="botox.png" class="w-full h-40 object-cover rounded-2xl mb-6 shadow-md">
+                    <h2 class="text-2xl font-serif font-bold text-brand-dark mb-4">Botox</h2>
+                    <p class="text-brand-gray text-sm mb-6 leading-relaxed">Aplicação de toxina botulínica para relaxar
+                        a musculatura e suavizar rugas dinâmicas da face.</p>
+                    <div class="space-y-3 mb-8">
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Suaviza rugas na testa</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Elimina 'pés de galinha'</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Preveni novas linhas</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações sobre Botox."
+                        class="w-full py-4 rounded-xl bg-brand-main text-white font-bold flex items-center justify-center gap-2 shadow-lg shadow-brand-main/20 uppercase tracking-wide text-xs">
+                        AGENDAR APLICAÇÃO <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Modal Preenchimento -->
+            <div id="modal-preenchimento" class="modal-backdrop">
+                <div class="modal-content">
+                    <span class="close-modal" onclick="closeModal('modal-preenchimento')"><i
+                            class="fa-solid fa-xmark text-xl"></i></span>
+                    <img src="preenchimento.png" class="w-full h-40 object-cover rounded-2xl mb-6 shadow-md">
+                    <h2 class="text-2xl font-serif font-bold text-brand-dark mb-4">Preenchimento Labial</h2>
+                    <p class="text-brand-gray text-sm mb-6 leading-relaxed">Uso de ácido hialurônico para volumizar,
+                        contornar e hidratar profundamente os lábios com naturalidade.</p>
+                    <div class="space-y-3 mb-8">
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Volume e definição natural</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Hidratação profunda (Gloss)</span>
+                        </div>
+                        <div
+                            class="flex items-center gap-3 text-sm text-brand-dark font-medium bg-brand-light p-3 rounded-xl border border-brand-accent">
+                            <i class="fa-solid fa-check text-brand-main"></i> <span>Corrige assimetrias</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5521987439102?text=Olá, vim do link da bio e gostaria de mais informações sobre Preenchimento Labial."
+                        class="w-full py-4 rounded-xl bg-brand-main text-white font-bold flex items-center justify-center gap-2 shadow-lg shadow-brand-main/20 uppercase tracking-wide text-xs">
+                        QUERO SABER MAIS <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Modal Tour 360 -->
+            <div id="modal-360" class="modal-backdrop">
+                <div class="modal-content text-center">
+                    <span class="close-modal" onclick="closeModal('modal-360')"><i
+                            class="fa-solid fa-xmark text-xl"></i></span>
+                    <div
+                        class="w-full h-48 bg-brand-accent/30 rounded-2xl mb-6 flex items-center justify-center overflow-hidden relative">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipP8I_uYmRQ72RwfaBjrcQTJXe0FMm1Owm_tik9P=w4096-h2048-k-no"
+                            class="w-full h-full object-cover opacity-20 blur-sm scale-110">
+                        <i class="fa-solid fa-street-view text-6xl text-brand-main absolute animate-pulse"></i>
+                    </div>
+                    <h2 class="text-2xl font-serif font-bold text-brand-dark mb-4">Experiência Virtual</h2>
+                    <p class="text-brand-gray text-sm mb-8 leading-relaxed max-w-[300px] mx-auto">
+                        Esta funcionalidade está em construção. Em breve você poderá ter a <strong
+                            class="text-brand-main">experiência visual imersiva</strong> do nosso espaço exclusivo.
+                    </p>
+                    <button onclick="closeModal('modal-360')"
+                        class="w-full py-4 rounded-xl bg-brand-main text-white font-bold flex items-center justify-center gap-2 shadow-lg shadow-brand-main/20 uppercase tracking-[0.2em] text-[10px]">
+                        ENTENDI
+                    </button>
+                </div>
+            </div>
+
+            <!-- Modal de Imagem (Popup) -->
+            <div id="modal-image" class="modal-backdrop !p-0" onclick="closeModal('modal-image')">
+                <div class="relative w-full h-full flex items-center justify-center p-4">
+                    <span
+                        class="absolute top-6 right-6 text-white text-3xl cursor-pointer z-[110] hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-xmark"></i>
+                    </span>
+                    <img id="popup-img" src=""
+                        class="max-w-[95%] max-h-[90vh] object-contain rounded-xl shadow-2xl animate-modalZoom border-2 border-white/20">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

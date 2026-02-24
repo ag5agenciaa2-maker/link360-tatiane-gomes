@@ -1,0 +1,417 @@
+/* Configuração do Design System Dra. Tatiane Gomes - Lumina Elite Refinement */
+:root {
+    --brand-main: #C9A962;
+    --brand-hover: #A68B4B;
+    --brand-accent: #F5F0E6;
+    --brand-dark: #121212;
+    /* Suavizado de 0A0A0A */
+    --brand-gray: #717171;
+    --brand-light: #FDFBF7;
+    --whatsapp-color: #25D366;
+    --bg-color: #F4F2EE;
+    /* Off-white mais editorial */
+    --text-color: var(--brand-dark);
+    --card-bg: #FFFFFF;
+    --border-color: rgba(201, 169, 98, 0.08);
+    /* Borda tonal */
+    --ease-premium: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+body.dark-mode {
+    --brand-main: #D4B673;
+    /* Dourado levemente mais claro para vibrar no preto */
+    --brand-hover: #E5C784;
+    --brand-accent: #1A1A1A;
+    --brand-dark: #FDFBF7;
+    /* Texto principal fica claro */
+    --brand-gray: #A0A0A0;
+    /* Cinza para textos secundários */
+    --brand-light: #000000;
+    --bg-color: #000000;
+    --text-color: #FDFBF7;
+    --card-bg: #0A0A0A;
+    --border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Noise Overlay Global */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.025;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* Forçar fundo preto na página inteira */
+html.dark-mode,
+body.dark-mode {
+    background-color: #000000 !important;
+}
+
+/* Base */
+html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.6s var(--ease-premium), color 0.6s var(--ease-premium);
+}
+
+/* Tipografia Editorial */
+.font-serif {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: -0.01em;
+}
+
+/* Micro-Tipografia Técnica */
+.micro-label {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+/* Glassmorphism Refinado */
+.glass {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode .glass {
+    background: rgba(0, 0, 0, 0.4);
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+/* WhatsApp Notification Badge */
+.whatsapp-notify {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.2);
+    z-index: 50;
+    animation: bounce-notify 2s ease-in-out infinite;
+}
+
+@keyframes bounce-notify {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+/* Modal Styling */
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(18, 18, 18, 0.8);
+    backdrop-filter: blur(8px);
+    z-index: 100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.modal-content {
+    background: var(--brand-light);
+    border-radius: 2rem;
+    width: 100%;
+    max-width: 440px;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 2.5rem;
+    box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--border-color);
+    animation: modalIn 0.5s var(--ease-premium);
+}
+
+@keyframes modalIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.close-modal {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    color: var(--brand-gray);
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: transform 0.3s var(--ease-premium);
+}
+
+.close-modal:hover {
+    transform: rotate(90deg);
+}
+
+/* Animations & Micro-interactions */
+.hover-lift {
+    transition: all 0.5s var(--ease-premium);
+}
+
+.hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px -15px rgba(201, 169, 98, 0.12);
+}
+
+/* Fade Up Entry */
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s var(--ease-premium);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Pulse slower and more elegant */
+@keyframes pulse-ring-luxury {
+    0% {
+        transform: scale(0.98);
+        box-shadow: 0 0 0 0 rgba(201, 169, 98, 0.2);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(201, 169, 98, 0);
+    }
+
+    100% {
+        transform: scale(0.98);
+        box-shadow: 0 0 0 0 rgba(201, 169, 98, 0);
+    }
+}
+
+.pulse-custom-slow {
+    animation: pulse-ring-luxury 4s var(--ease-premium) infinite;
+}
+
+/* Theme Toggle Button Refinado */
+.theme-toggle {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.04);
+    z-index: 50;
+    transition: all 0.4s var(--ease-premium);
+    backdrop-filter: blur(8px);
+}
+
+.theme-toggle:hover {
+    transform: scale(1.05) rotate(12deg);
+    border-color: var(--brand-main);
+}
+
+.theme-toggle i {
+    font-size: 1.1rem;
+    color: var(--brand-main);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--brand-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--brand-main);
+    opacity: 0.3;
+    border-radius: 10px;
+}
+
+/* Dark mode shadow removals and refinement */
+.dark-mode .shadow-2xl {
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.8), 0 0 30px rgba(212, 182, 115, 0.03) !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.04);
+    border-right: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.dark-mode .shadow-xl,
+.dark-mode .shadow-lg,
+.dark-mode .shadow-md,
+.dark-mode .shadow-sm {
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.8) !important;
+}
+
+.dark-mode body {
+    background-color: #050505 !important;
+    /* Ligeiramente mais claro que a coluna para dar contraste */
+}
+
+.dark-mode .bg-brand-light {
+    background-color: #000000 !important;
+    /* Coluna central totalmente preta */
+}
+
+.dark-mode .bg-white {
+    background-color: var(--card-bg) !important;
+}
+
+.dark-mode .bg-brand-accent {
+    background-color: rgba(212, 182, 115, 0.1) !important;
+}
+
+.dark-mode .border-brand-accent {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.dark-mode .border-zinc-100 {
+    border-color: var(--border-color) !important;
+}
+
+/* Forçar legibilidade de textos secundários no Dark Mode */
+.dark-mode .text-brand-gray {
+    color: var(--brand-gray) !important;
+}
+
+.dark-mode .text-zinc-600 {
+    color: #A0A0A0 !important;
+}
+
+.dark-mode .text-zinc-400 {
+    color: #808080 !important;
+}
+
+.dark-mode .text-brand-dark {
+    color: var(--brand-dark) !important;
+}
+
+/* Ajuste de seções pretas que ficam sólidas demais */
+.dark-mode .bg-zinc-900,
+.dark-mode .bg-zinc-800 {
+    background-color: #0A0A0A !important;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Imagens em dark mode com leve filtro para não estourar brancos */
+.dark-mode img {
+    filter: brightness(0.9) contrast(1.1);
+}
+
+.dark-mode .filter.grayscale {
+    filter: grayscale(1) invert(1) brightness(2) !important;
+}
+
+/* Horizontal Scroll for Reviews */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@keyframes scrollReviews {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-scroll {
+    display: flex;
+    width: max-content;
+    animation: scrollReviews 60s linear infinite;
+}
+
+.animate-scroll:hover {
+    animation-play-state: paused;
+}
+
+/* Infinite Scroll for Results Gallery */
+@keyframes scrollResults {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-scroll-fast {
+    display: flex;
+    width: max-content;
+    animation: scrollResults 20s linear infinite;
+}
+
+.animate-scroll-fast:hover {
+    animation-play-state: paused;
+}
+
+@keyframes modalZoom {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-modalZoom {
+    animation: modalZoom 0.4s var(--ease-premium);
+}

@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dra. Tatiane Gomes - Referência em Saúde Estética Avançada. Harmonização facial, procedimentos corporais, rejuvenescimento e skincare avançado em Santa Cruz e Barra da Tijuca - RJ.">
+  <meta name="keywords" content="estética avançada, harmonização facial, botox, preenchimento, rejuvenescimento, skincare, Dra Tatiane Gomes, Barra da Tijuca, Santa Cruz">
+  <meta name="author" content="Dra. Tatiane Gomes">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dra. Tatiane Gomes - Saúde Estética Avançada">
+  <meta property="og:description" content="Referência em estética avançada com foco em resultados naturais, seguros e personalizados. Agende sua consulta!">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1e78f8fe44a593df49.webp">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" href="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1e01770772a1d1aa14.webp">
+  
+  <title>Dra. Tatiane Gomes - Saúde Estética Avançada</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1e78f8fe44a593df49.webp" alt="Dra. Tatiane Gomes">
+      </a>
+      
+      <div class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link">Início</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#resultados" class="nav-link">Resultados</a>
+        <a href="#depoimentos" class="nav-link">Depoimentos</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </div>
+      
+      <a href="https://wa.me/5521987439102" target="_blank" rel="noopener noreferrer" class="nav-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Agendar Consulta
+      </a>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hero" class="mobile-link">Início</a>
+    <a href="#sobre" class="mobile-link">Sobre</a>
+    <a href="#servicos" class="mobile-link">Serviços</a>
+    <a href="#resultados" class="mobile-link">Resultados</a>
+    <a href="#depoimentos" class="mobile-link">Depoimentos</a>
+    <a href="#contato" class="mobile-link">Contato</a>
+    <a href="https://wa.me/5521987439102" target="_blank" rel="noopener noreferrer" class="mobile-cta">
+      Agendar Consulta
+    </a>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1e78f8fe73de93df46.webp" alt="Dra. Tatiane Gomes">
+      <div class="hero-overlay"></div>
+    </div>
+    
+    <div class="hero-particles" id="heroParticles"></div>
+    
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span>Saúde Estética Avançada</span>
+      </div>
+      
+      <h1 class="hero-title">
+        Realce sua <span class="text-gradient">beleza natural</span> com excelência e segurança
+      </h1>
+      
+      <p class="hero-subtitle">
+        A Dra. Tatiane Gomes é referência em estética avançada, oferecendo tratamentos personalizados que valorizam sua essência e elevam sua autoestima.
+      </p>
+      
+      <div class="hero-buttons">
+        <a href="https://wa.me/5521987439102" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-pulse">
+          Agende sua Consulta
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="#servicos" class="btn btn-outline">
+          Conheça os Tratamentos
+        </a>
+      </div>
+      
+      <div class="hero-stats">
+        <div class="stat-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          <div>
+            <span class="stat-value">10+</span>
+            <span class="stat-label">Anos de Experiência</span>
+          </div>
+        </div>
+        <div class="stat-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <div>
+            <span class="stat-value">5000+</span>
+            <span class="stat-label">Procedimentos</span>
+          </div>
+        </div>
+        <div class="stat-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <div>
+            <span class="stat-value">100%</span>
+            <span class="stat-label">Satisfação</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-bottom-gradient"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="sobre" class="about">
+    <div class="about-bg-pattern"></div>
+    
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <div class="about-image">
+            <img src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1e78f8fe34e293df4b.webp" alt="Dra. Tatiane Gomes">
+          </div>
+          <div class="about-badge">
+            <span class="badge-value">10+</span>
+            <span class="badge-label">Anos de Experiência</span>
+          </div>
+          <div class="about-decoration-1"></div>
+          <div class="about-decoration-2"></div>
+        </div>
+        
+        <div class="about-content">
+          <div class="section-label">
+            <span></span>
+            <span>Sobre a Dra. Tatiane</span>
+          </div>
+          
+          <h2 class="section-title">
+            Referência em <span class="text-gradient">Estética Avançada</span>
+          </h2>
+          
+          <div class="about-text">
+            <p>
+              A história da Dra. Tatiane Gomes Saúde Estética nasce da paixão pela estética e pelo cuidado genuíno com as pessoas. Desde o início, o propósito sempre foi ir além da estética convencional, oferecendo tratamentos que respeitam a individualidade, a segurança e a beleza natural de cada paciente.
+            </p>
+            <p>
+              Com muito estudo, dedicação e amor pela profissão, o consultório vem crescendo, evoluindo e investindo continuamente em tecnologia e protocolos modernos, tornando-se referência em estética avançada e atendimento humanizado.
+            </p>
+            <p>
+              Além da atuação clínica, a Dra. Tatiane Gomes é mentora de profissionais da área da saúde estética. Em junho de 2025, teve artigo científico publicado sobre as vias de liberação de colágeno no microagulhamento, reforçando seu compromisso com a ciência e a excelência profissional.
+            </p>
+          </div>
+          
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+              </div>
+              <div>
+                <h4>Excelência Técnica</h4>
+                <p>Protocolos modernos e tecnologias de ponta</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </div>
+              <div>
+                <h4>Atendimento Humanizado</h4>
+                <p>Avaliação individualizada e acolhedora</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              </div>
+              <div>
+                <h4>Mentora e Pesquisadora</h4>
+                <p>Artigo científico publicado em 2025</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <div>
+                <h4>Resultados Naturais</h4>
+                <p>Beleza que valoriza sua essência</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="servicos" class="services">
+    <div class="services-bg"></div>
+    
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label center">
+          <span></span>
+          <span>Nossos Tratamentos</span>
+          <span></span>
+        </div>
+        <h2 class="section-title center">
+          Protocolos <span class="text-gradient">Exclusivos</span>
+        </h2>
+        <p class="section-subtitle">
+          Desenvolvidos para realçar sua beleza natural com segurança e excelência
+        </p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="services-list">
+          <div class="service-card active" data-service="0">
+            <div class="service-header">
+              <div class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div class="service-info">
+                <h3>Harmonização Facial</h3>
+                <p>Procedimentos avançados para realçar a beleza natural do seu rosto com resultados harmoniosos e naturais.</p>
+              </div>
+              <svg class="service-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </div>
+            <div class="service-treatments">
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Botox (Toxina Botulínica)</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Preenchimento Facial e Labial</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Rinomodelação</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Fios de PDO</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Bioestimuladores de Colágeno</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Microagulhamento</div>
+            </div>
+          </div>
+          
+          <div class="service-card" data-service="1">
+            <div class="service-header">
+              <div class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+              </div>
+              <div class="service-info">
+                <h3>Procedimentos Corporais</h3>
+                <p>Tratamentos corporais de última geração para modelar, tonificar e rejuvenescer seu corpo.</p>
+              </div>
+              <svg class="service-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </div>
+            <div class="service-treatments">
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Endolaser</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Harmonização Glútea</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Lipoenzimática</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Hidrolipoclasia</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Redução de Medidas</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Tratamento para Celulite</div>
+            </div>
+          </div>
+          
+          <div class="service-card" data-service="2">
+            <div class="service-header">
+              <div class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+              </div>
+              <div class="service-info">
+                <h3>Rejuvenescimento</h3>
+                <p>Tecnologias avançadas para revitalizar sua pele e recuperar a juventude de forma natural.</p>
+              </div>
+              <svg class="service-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </div>
+            <div class="service-treatments">
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Laser CO₂</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Laser Lavieen</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Laser Pisom</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Ultraformer</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Peeling</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Skinbooster</div>
+            </div>
+          </div>
+          
+          <div class="service-card" data-service="3">
+            <div class="service-header">
+              <div class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>
+              </div>
+              <div class="service-info">
+                <h3>Skincare Avançado</h3>
+                <p>Cuidados especializados para uma pele saudável, luminosa e revitalizada.</p>
+              </div>
+              <svg class="service-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </div>
+            <div class="service-treatments">
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Limpeza de Pele</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Dermaplaning</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Tratamento para Melasma</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Tratamento para Olheiras</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Tratamento para Cicatrizes</div>
+              <div class="treatment-item"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>Remoção de Verrugas</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="service-image-wrapper">
+          <div class="service-image-container">
+            <img id="serviceImage" src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1ef5bf66197da9501c.webp" alt="Harmonização Facial" class="service-image">
+            <div class="service-image-overlay">
+              <div class="service-image-content">
+                <svg id="serviceImageIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <h3 id="serviceImageTitle">Harmonização Facial</h3>
+                <p id="serviceImageDesc">Procedimentos avançados para realçar a beleza natural do seu rosto com resultados harmoniosos e naturais.</p>
+              </div>
+            </div>
+          </div>
+          <div class="service-decoration-1"></div>
+          <div class="service-decoration-2"></div>
+        </div>
+      </div>
+      
+      <div class="services-cta">
+        <a href="https://wa.me/5521987439102" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          Agende sua Avaliação
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section id="resultados" class="results">
+    <div class="results-bg"></div>
+    
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label center">
+          <span></span>
+          <span>Resultados Reais</span>
+          <span></span>
+        </div>
+        <h2 class="section-title center">
+          Transformações que <span class="text-gradient">Inspiram</span>
+        </h2>
+        <p class="section-subtitle">
+          Veja a diferença que a excelência técnica e o cuidado personalizado fazem
+        </p>
+      </div>
+      
+      <div class="results-slider">
+        <div class="comparison-container" id="comparisonContainer">
+          <div class="comparison-images">
+            <img id="afterImage" src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1ef5bf6654c4a9501e.webp" alt="Depois" class="comparison-img comparison-after">
+            <div class="comparison-before-wrapper" id="beforeWrapper" style="width: 50%;">
+              <img id="beforeImage" src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1ef5bf66197da9501c.webp" alt="Antes" class="comparison-img comparison-before">
+            </div>
+          </div>
+          
+          <div class="comparison-label comparison-label-before">Antes</div>
+          <div class="comparison-label comparison-label-after">Depois</div>
+          
+          <div class="comparison-handle" id="comparisonHandle" style="left: 50%;">
+            <div class="comparison-handle-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+        
+        <div class="results-info">
+          <div class="results-text">
+            <h3 id="resultTitle">Harmonização Facial</h3>
+            <p id="resultDesc">Resultado natural com preenchimento facial</p>
+          </div>
+          <div class="results-nav">
+            <button class="results-nav-btn" id="prevResult">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <button class="results-nav-btn" id="nextResult">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+        
+        <div class="results-dots" id="resultsDots">
+          <button class="result-dot active" data-index="0"></button>
+          <button class="result-dot" data-index="1"></button>
+          <button class="result-dot" data-index="2"></button>
+        </div>
+      </div>
+      
+      <div class="results-thumbnails" id="resultsThumbnails">
+        <button class="result-thumb active" data-index="0">
+          <img src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1ef5bf6654c4a9501e.webp" alt="Harmonização Facial">
+          <div class="result-thumb-overlay">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/></svg>
+          </div>
+        </button>
+        <button class="result-thumb" data-index="1">
+          <img src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1e2cab4a88f44d29fe.webp" alt="Rejuvenescimento">
+          <div class="result-thumb-overlay">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/></svg>
+          </div>
+        </button>
+        <button class="result-thumb" data-index="2">
+          <img src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1e7f6dcf9b820fe7d8.webp" alt="Skincare Avançado">
+          <div class="result-thumb-overlay">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/></svg>
+          </div>
+        </button>
+      </div>
+      
+      <p class="results-disclaimer">
+        *Resultados individuais podem variar. Consulte a Dra. Tatiane para avaliação personalizada.
+      </p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="depoimentos" class="testimonials">
+    <div class="testimonials-bg"></div>
+    
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label center">
+          <span></span>
+          <span>Depoimentos</span>
+          <span></span>
+        </div>
+        <h2 class="section-title center">
+          O que nossas <span class="text-gradient">pacientes dizem</span>
+        </h2>
+        <p class="section-subtitle">
+          Histórias reais de transformação e autoestima renovada
+        </p>
+      </div>
+      
+      <div class="testimonials-carousel">
+        <div class="quote-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/></svg>
+        </div>
+        
+        <div class="testimonial-card" id="testimonialCard">
+          <div class="testimonial-stars">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#C9A962" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#C9A962" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#C9A962" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#C9A962" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#C9A962" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          
+          <p class="testimonial-text" id="testimonialText">
+            "A Dra. Tatiane é simplesmente incrível! Desde a primeira consulta, me senti segura e acolhida. O resultado do meu preenchimento labial superou todas as minhas expectativas, ficou super natural e harmonioso."
+          </p>
+          
+          <div class="testimonial-author">
+            <span class="testimonial-name" id="testimonialName">Maria Silva</span>
+            <span class="testimonial-service" id="testimonialService">Preenchimento Labial</span>
+          </div>
+        </div>
+        
+        <div class="testimonials-nav">
+          <button class="testimonials-nav-btn" id="prevTestimonial">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <button class="testimonials-nav-btn" id="nextTestimonial">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+        
+        <div class="testimonials-dots" id="testimonialsDots">
+          <button class="testimonial-dot active" data-index="0"></button>
+          <button class="testimonial-dot" data-index="1"></button>
+          <button class="testimonial-dot" data-index="2"></button>
+          <button class="testimonial-dot" data-index="3"></button>
+          <button class="testimonial-dot" data-index="4"></button>
+        </div>
+      </div>
+      
+      <div class="testimonials-stats">
+        <div class="stat-box">
+          <span class="stat-box-value">5000+</span>
+          <span class="stat-box-label">Procedimentos</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-value">100%</span>
+          <span class="stat-box-label">Satisfação</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-value">4.9</span>
+          <span class="stat-box-label">Avaliação Média</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-value">2000+</span>
+          <span class="stat-box-label">Pacientes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="faq-bg"></div>
+    
+    <div class="container">
+      <div class="faq-grid">
+        <div class="faq-header">
+          <div class="section-label">
+            <span></span>
+            <span>Dúvidas Frequentes</span>
+          </div>
+          <h2 class="section-title">
+            Tire suas <span class="text-gradient">dúvidas</span>
+          </h2>
+          <p class="faq-subtitle">
+            Encontre respostas para as perguntas mais comuns sobre nossos tratamentos. Se ainda tiver dúvidas, entre em contato conosco.
+          </p>
+          
+          <div class="faq-cta-card">
+            <div class="faq-cta-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div class="faq-cta-text">
+              <h4>Ainda tem dúvidas?</h4>
+              <p>Fale diretamente com a Dra. Tatiane</p>
+            </div>
+            <a href="https://wa.me/5521987439102" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Falar no WhatsApp
+            </a>
+          </div>
+        </div>
+        
+        <div class="faq-list" id="faqList">
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>Quanto tempo dura o procedimento?</span>
+              <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>O tempo varia conforme o tratamento. Procedimentos como Botox duram cerca de 15-30 minutos, enquanto preenchimentos podem levar 30-60 minutos. Avaliaremos seu caso específico durante a consulta.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Qual o valor dos tratamentos?</span>
+              <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Os valores variam conforme o tipo de procedimento, a quantidade de produto necessária e a complexidade do caso. Oferecemos uma avaliação personalizada gratuita para apresentar o investimento adequado ao seu objetivo.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Os procedimentos são doloridos?</span>
+              <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Utilizamos técnicas avançadas e anestésicos de qualidade para garantir seu conforto. A maioria dos pacientes relata apenas desconforto leve e passageiro durante os procedimentos.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quanto tempo dura o resultado?</span>
+              <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>A durabilidade varia por tratamento: Botox (4-6 meses), preenchimento (12-18 meses), bioestimuladores (até 24 meses). Durante a consulta, explicaremos detalhadamente sobre seu tratamento específico.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Preciso de repouso após o procedimento?</span>
+              <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>A maioria dos procedimentos permite retorno imediato às atividades. Alguns podem recomendar cuidados específicos por 24-48h, como evitar exercícios físicos intensos ou exposição solar excessiva.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Os resultados são naturais?</span>
+              <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Sim! Nossa filosofia é valorizar sua beleza natural. Trabalhamos com técnicas refinadas e produtos de alta qualidade para garantir resultados harmoniosos que respeitem sua anatomia facial.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quais as formas de pagamento?</span>
+              <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Aceitamos dinheiro, cartões de crédito e débito. Também oferecemos parcelamento em até 12x nos cartões. Entre em contato para mais informações sobre condições especiais.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Como agendar uma consulta?</span>
+              <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Você pode agendar pelo WhatsApp (21) 98743-9102 ou pelo formulário de contato em nosso site. Atendemos de terça a sexta, das 9h às 20h, e aos sábados, das 9h às 14h.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contato" class="contact">
+    <div class="contact-bg"></div>
+    
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label center">
+          <span></span>
+          <span>Entre em Contato</span>
+          <span></span>
+        </div>
+        <h2 class="section-title center">
+          Agende sua <span class="text-gradient">Consulta</span>
+        </h2>
+        <p class="section-subtitle">
+          Dê o primeiro passo para realçar sua beleza natural
+        </p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-cards">
+            <a href="https://wa.me/5521987439102" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Telefone/WhatsApp</h4>
+                <p>(21) 98743-9102</p>
+              </div>
+            </a>
+            
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Local de Atendimento</h4>
+                <p>Santa Cruz / Barra da Tijuca - RJ</p>
+              </div>
+            </div>
+            
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <h4>Horário de Atendimento</h4>
+                <p>Terça a Sexta: 9h às 20h<br>Sábado: 9h às 14h</p>
+              </div>
+            </div>
+            
+            <a href="https://www.instagram.com/dratatianecgomes" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </div>
+              <div>
+                <h4>Instagram</h4>
+                <p>@dratatianecgomes</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="contact-social">
+            <h4>Siga nas redes sociais</h4>
+            <div class="social-links">
+              <a href="https://www.instagram.com/dratatianecgomes" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </a>
+              <a href="https://www.threads.net/@dratatianecgomes" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Threads">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.59 12c.025 3.086.718 5.496 2.057 7.164 1.432 1.781 3.632 2.695 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.282 3.248-.896 1.09-2.164 1.65-3.767 1.667-1.359.013-2.53-.471-3.378-1.398-.84-.918-1.274-2.144-1.25-3.554.024-1.412.51-2.67 1.37-3.54.858-.872 2.002-1.326 3.322-1.326h.017c.854 0 1.68.175 2.4.508l-.514 1.607a3.374 3.374 0 0 0-1.914-.548c-.804.006-1.458.28-1.946.814-.487.535-.75 1.281-.763 2.164-.012.88.223 1.619.677 2.146.453.525 1.05.79 1.773.785 1.002-.008 1.76-.402 2.256-1.172.357-.55.588-1.28.686-2.178h.003z"/></svg>
+              </a>
+              <a href="https://www.tiktok.com/@dratatianegomes" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-wrapper">
+          <div class="contact-form" id="contactForm">
+            <h3>Envie uma mensagem</h3>
+            
+            <form id="form" class="form">
+              <div class="form-group">
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Telefone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="(21) 99999-9999" required>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="4" placeholder="Conte-nos como podemos ajudar..." required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-full">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Enviar Mensagem
+              </button>
+              
+              <p class="form-disclaimer">
+                Ao enviar, você concorda com nossa política de privacidade.
+              </p>
+            </form>
+          </div>
+          
+          <div class="form-success" id="formSuccess" style="display: none;">
+            <div class="success-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h4>Mensagem enviada!</h4>
+            <p>Entraremos em contato em breve.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="https://storage.googleapis.com/msgsndr/7hzaWcGgawCV1WudlwA7/media/698c7f1e78f8fe44a593df49.webp" alt="Dra. Tatiane Gomes" class="footer-logo">
+          <p class="footer-text">
+            Referência em Saúde Estética Avançada, oferecendo tratamentos personalizados com foco em resultados naturais, seguros e personalizados.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/dratatianecgomes" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/5521987439102" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+            <a href="mailto:contato@dratatianegomes.com.br" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#resultados">Resultados</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Tratamentos</h4>
+          <ul>
+            <li><a href="#servicos">Harmonização Facial</a></li>
+            <li><a href="#servicos">Procedimentos Corporais</a></li>
+            <li><a href="#servicos">Rejuvenescimento</a></li>
+            <li><a href="#servicos">Skincare Avançado</a></li>
+            <li><a href="#servicos">Bioestimuladores</a></li>
+            <li><a href="#servicos">Laser CO₂</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Contato</h4>
+          <div class="footer-contact-item">
+            <span class="footer-label">WhatsApp</span>
+            <a href="https://wa.me/5521987439102" target="_blank" rel="noopener noreferrer">(21) 98743-9102</a>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-label">Local</span>
+            <p>Santa Cruz / Barra da Tijuca - RJ</p>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-label">Horário</span>
+            <p>Terça a Sexta: 9h às 20h<br>Sábado: 9h às 14h</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Dra. Tatiane Gomes Saúde Estética. Todos os direitos reservados.</p>
+        <p class="footer-made">Feito com <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#C9A962" stroke="#C9A962" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> para você</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp-float" id="whatsappFloat">
+    <div class="whatsapp-chat" id="whatsappChat">
+      <div class="whatsapp-chat-header">
+        <div class="whatsapp-chat-info">
+          <div class="whatsapp-chat-avatar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div>
+            <h4>Dra. Tatiane Gomes</h4>
+            <p>Online agora</p>
+          </div>
+        </div>
+        <button class="whatsapp-chat-close" id="whatsappClose">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="whatsapp-chat-body">
+        <div class="whatsapp-message">
+          <p>Olá! 👋</p>
+          <p><br>Sou a Dra. Tatiane Gomes. Como posso ajudar você hoje?</p>
+          <p><br>Estou disponível para tirar suas dúvidas e agendar sua consulta.</p>
+        </div>
+        <a href="https://wa.me/5521987439102" target="_blank" rel="noopener noreferrer" class="whatsapp-chat-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Iniciar Conversa
+        </a>
+      </div>
+    </div>
+    
+    <button class="whatsapp-btn" id="whatsappBtn" aria-label="WhatsApp">
+      <span class="whatsapp-notification" id="whatsappNotification">1</span>
+      <span class="whatsapp-pulse"></span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </button>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
